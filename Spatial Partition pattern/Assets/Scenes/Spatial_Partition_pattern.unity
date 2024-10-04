@@ -268,12 +268,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26166747df88f704cb6dc67c8ea4a053, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timetext: {fileID: 1645372889}
   friendlyObj: {fileID: 3001295324138413488, guid: efb9b3e5aca99c0498cf573f19cd9011, type: 3}
   enemyObj: {fileID: 5094905875725248158, guid: 6bf7aa321a9509e40a81394bcfedf9f1, type: 3}
   enemyMaterial: {fileID: 2100000, guid: 87b12d42ef609954e83ad516db2564e4, type: 2}
   closestEnemyMaterial: {fileID: 2100000, guid: 91cbb4ada9d84fd41a8f415d6be08a55, type: 2}
   enemyParent: {fileID: 502818101}
   friendlyParent: {fileID: 2129958250}
+  numberOfSoldiers: 200
+  useSpatialParition: 0
 --- !u!1 &502818100
 GameObject:
   m_ObjectHideFlags: 0
@@ -399,6 +402,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1969552863}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &865679842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 865679844}
+  - component: {fileID: 865679843}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &865679843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865679842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c00b7daadf2ba3e4fa6af0d52dd8d0e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gamecontroller: {fileID: 373460305}
+--- !u!4 &865679844
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865679842}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 651.30927, y: 195.07512, z: 73.435585}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -724,7 +772,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 38
+    m_FontSize: 26
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -819,3 +867,4 @@ SceneRoots:
   - {fileID: 2129958250}
   - {fileID: 258456611}
   - {fileID: 1519232793}
+  - {fileID: 865679844}
