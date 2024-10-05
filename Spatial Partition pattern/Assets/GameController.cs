@@ -120,6 +120,10 @@ namespace SpatialPartitionPattern
             }
             return closestEnemy;
         }
+        public void OnToggleSpatialButton()
+        {
+            useSpatialParition = !useSpatialParition;
+        }
     }
 
 }
