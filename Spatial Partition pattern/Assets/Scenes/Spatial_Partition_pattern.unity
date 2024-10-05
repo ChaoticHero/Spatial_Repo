@@ -158,7 +158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 430, y: 185}
+  m_AnchoredPosition: {x: 263, y: 89.80975}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &160487348
@@ -303,7 +303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -409,7 +409,7 @@ MonoBehaviour:
   closestEnemyMaterial: {fileID: 2100000, guid: 91cbb4ada9d84fd41a8f415d6be08a55, type: 2}
   enemyParent: {fileID: 502818101}
   friendlyParent: {fileID: 2129958250}
-  numberOfSoldiers: 500
+  numberOfSoldiers: 600
   useSpatialParition: 0
 --- !u!1 &502818100
 GameObject:
@@ -1014,7 +1014,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 486.32874, y: 235.19028}
+  m_AnchoredPosition: {x: 327, y: 140}
   m_SizeDelta: {x: 279.3425, y: 55.6194}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1645372889
